@@ -19,20 +19,26 @@ body{
 .keys{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 .key{
     border: 5px solid black;
+    border-radius: 10px;
     color: white;
     padding: 0.5rem 0;
     width: 8rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
+.play{
+    border-color:hsl(43, 74%, 49%);
+    scale: 1.1;
+    box-shadow: 0 0 1rem #ffc600;
+}
 .key kbd{
   font-size: 2.5rem;
   font-weight: 500;
