@@ -6,4 +6,5 @@ This Repository Documents a 30 days  JavaScript challenge. where I will be build
 | Day | Description | Live Site Link |
 | --- | ----------- | ---- |
 | 1   |  JS Drum Stick| [Js Drum Stick](http://fevenseyfu.me/Javascript-30/01-Javascript-drum-kit/) |
+| 2   |  JS+CSS Clock| [JS+CSS Clock](http://fevenseyfu.me/Javascript-30/02-JS and CSS Clock/) |
 
