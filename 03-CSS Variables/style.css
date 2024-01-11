@@ -18,9 +18,6 @@ body{
 
 h1 {
     font-size: 3rem;
-    background: -webkit-linear-gradient(#f0f0f0, #8678df);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
 }
 
@@ -43,4 +40,8 @@ img{
     width: 640px;
     height: 480px;
     border: 10px solid black;
+}
+
+.text{
+    color: black;
 }
