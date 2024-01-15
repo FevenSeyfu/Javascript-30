@@ -5,7 +5,7 @@ This Repository Documents a 30 days  JavaScript challenge. where I will be build
 
 | Day | Description | Live Site Link | Preview |
 | --- | ----------- | ---- | ---- |
-| 1   |  JS Drum Stick| [01 Js Drum Stick](http://fevenseyfu.me/Javascript-30/01-Javascript-drum-kit/) |![Day 1](assets/Day_1.png)|
+| 1   |  JS Drum Stick| [01 Js Drum Stick](http://fevenseyfu.me/Javascript-30/01-Javascript-drum-kit/) |<img src="assets/Day_1.png" alt="Day 1" width="200"/>|
 | 2   |  JS+CSS Clock| [02 JS+CSS Clock](http://fevenseyfu.me/Javascript-30/02-JS-and-CSS-Clock/) |![Day 2](assets/Day_2.png)|
 | 3   |  CSS Variables| [03 CSS Variable](http://fevenseyfu.me/Javascript-30/03-CSS-Variables/) | ![Day 3](assets/Day_3.png)|
 | 4   |  Array Cardio Day 1| [04 Array Cardio-Day 1](http://fevenseyfu.me/Javascript-30/04-Array-Cardio-day-1/) | ![Day 4](assets/Day_4.png)|
