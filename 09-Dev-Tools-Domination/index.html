@@ -19,29 +19,53 @@
     }
 
     // Regular
-
+    console.log('Hello World!')
     // Interpolated
-
+    console.log('Hello I am a %s!', '👩🏼‍💻');
     // Styled
-
+    console.log('%c This is a styled Hello world!','color:purple; background:white; font-size:2rem; font-weight:bold; ')
     // warning!
-
+    console.warn('danger danger!')
     // Error :|
-
+    console.error('incorrect input!')
     // Info
-
+    console.info('Fun fact!')
     // Testing
-
+    const p = document.querySelector('p')
+    console.assert(p.classList.contains('ouch'),'Wrong answer!')
     // clearing
-
+    console.clear()
     // Viewing DOM Elements
-
+    console.log(p)
+    console.dir(p)
+    console.clear();
     // Grouping together
-
+    dogs.forEach(dog=>{
+        console.groupCollapsed(`${dog.name}`);
+        console.log(`This is ${dog.name}`);
+        console.log(`${dog.name} is a dog `);
+        console.log(`${dog.name} is ${dog.age} years old!`);
+        console.groupEnd(`${dog,name}`)
+    })
     // counting
-
+    console.count('snickers')
+    console.count('hugo')
+    console.count('snickers')
+    console.count('snickers')
+    console.count('snickers')
+    console.count('hugo')
+    console.count('snickers')
+    console.count('snickers')
+    console.count('hugo')
     // timing
-
+    console.time('fetch dogs')
+    fetch('https://api.github.com/users/wesbos')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetch dogs');
+        console.log(data);
+      });
+    console.table(dogs)
   </script>
 </body>
 </html>
