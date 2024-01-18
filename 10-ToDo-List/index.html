@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>ToDo List</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Daily ToDo List</h1>
+      </header>
+      <main class="main">
+        <input
+          type="text"
+          name="task"
+          class="task-input"
+          placeholder="add task"
+        />
+        <ul class="tasks-list">
+          <li class="task-item">
+            <label for="task"
+              ><input type="checkbox" name="task" class="task" /> finish
+              task</label
+            >
+            <i
+              class="fa fa-trash"
+              style="font-size: 24px; color: red"
+              class="delete-icon"
+            ></i>
+          </li>
+          <li class="task-item">
+            <label for="task"
+              ><input type="checkbox" name="task" class="task" /> finish
+              task</label
+            >
+            <i
+              class="fa fa-trash"
+              style="font-size: 24px; color: red"
+              class="delete-icon"
+            ></i>
+          </li>
+          
+        </ul>
+        <button class="add-task">+</button>
+        <div class="progress-bar">
+            <label for=""></label>
+          <div class="progress">30%</div>
+        </div>
+      </main>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
