@@ -16,30 +16,16 @@
         <h1>Daily ToDo List</h1>
       </header>
       <main class="main">
-       <form class="task-form">
+       <form class="task-form hidden">
             <input
             type="text"
             name="task"
             class="task-input"
             placeholder="add task"
+            required
         />
        </form>
-        <ul class="tasks-list">
-          <li class="task-item">
-            <label class="checkbox">
-              <input type="checkbox" class="checkbox-input" />
-              <span class="checkbox-inner"></span>
-              <span class="task-name checked">finish task</label>
-            </label>
-            <button class="delete-btn">
-              <i
-                class="fa fa-trash"
-                style="font-size: 24px; color: red"
-                class="delete-icon"
-              ></i>
-            </button>
-          </li>
-        </ul>
+        <ul class="tasks-list"></ul>
         <button class="add-task">+</button>
         <div class="progress-bar">
           <label for=""></label>

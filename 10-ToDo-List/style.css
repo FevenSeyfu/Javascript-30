@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 :root {
   --bg-body-dark: #000;
   --bg-task: #1b263b;
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   background-color: var(--bg-body-dark);
   color: var(--btn-bg);
   width: 100%;
@@ -21,6 +21,10 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+.hidden{
+  display: none;
 }
 
 .container {
@@ -55,7 +59,6 @@ header {
 .task-item {
   width: 20rem;
   padding: 0.5rem;
-  color: var(--btn-bg);
 }
 
 .task-input {
@@ -147,8 +150,8 @@ header {
   background: transparent no-repeat center;
   cursor: pointer;
 }
-.checkbox-inner:hover{
-    border: 2px solid var(--btn-bg);
+.checkbox-inner:hover {
+  border: 2px solid var(--btn-bg);
 }
 
 .checkbox-input:checked + .checkbox-inner {
@@ -158,16 +161,16 @@ header {
   background-size: 14px 10px;
 }
 
-.task-name.checked{
-    text-decoration: line-through;
-    text-decoration-thickness: 3px;
+.task-name.checked {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
 }
 
-.delete-btn{
-    cursor: pointer;
-    background: transparent;
-    border: none;
+.delete-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
 }
-.delete-btn:hover{
-    scale: 1.2;
+.delete-btn:hover {
+  scale: 1.2;
 }
