@@ -2,7 +2,6 @@ const taskForm = document.querySelector(".task-form");
 const taskLists = document.querySelector(".tasks-list");
 const ProgressBar = document.querySelector(".progress");
 const addTaskBtn = document.querySelector(".add-task");
-
 // display task input form
 const showForm = () => {
   taskForm.classList.toggle("hidden");
@@ -10,12 +9,12 @@ const showForm = () => {
 
 // update Task progress
 const updateProgressBar = (Tasks) => {
-    const TaskCount = Tasks.length;
-    const CompletedTask = Tasks.filter(task=>task.progress === 'done').length;
-    let  progress = ((CompletedTask/TaskCount)*100).toFixed();
-    ProgressBar.style.width = `${progress}%`
-    ProgressBar.innerText = `${progress}%`
-}
+  const TaskCount = Tasks.length;
+  const CompletedTask = Tasks.filter((task) => task.progress === "done").length;
+  let progress = ((CompletedTask / TaskCount) * 100).toFixed();
+  ProgressBar.style.width = `${progress}%`;
+  ProgressBar.innerText = `${progress}%`;
+};
 // display tasks list
 const displayTasks = () => {
   //  fetch and display tasks
@@ -27,28 +26,30 @@ const displayTasks = () => {
         taskLi.classList.add("task-item");
         taskLi.setAttribute("key", task.id);
         taskLi.innerHTML += `
-    <label class="checkbox">
-        <input type="checkbox" class="checkbox-input" ${
-          task.progress === "done" ? "checked" : ""
-        }/>
-        <span class="checkbox-inner"></span>
-        <span class="task-name ${task.progress === "done" ? "checked" : ""}">${
-          task.name
-        }</span>
-    </label>
-    <button class="delete-btn">
-        <i
-        class="fa fa-trash delete-icon"
-        style="font-size: 24px; color: red"
-        ></i>
-    </button>
-    `;
+        <div class="align-left">
+            <label class="checkbox">
+            <input type="checkbox" class="checkbox-input" ${
+            task.progress === "done" ? "checked" : ""
+            }/>
+            <span class="checkbox-inner"></span>
+            </label>
+            <span class="task-name ${task.progress === "done" ? "checked" : ""}">${
+            task.name
+            }</span>
+        </div>
+        <button class="delete-btn">
+            <i
+            class="fa fa-trash delete-icon"
+            style="font-size: 24px; color: red"
+            ></i>
+        </button>
+        `;
         taskLists.appendChild(taskLi);
       })
     : (taskLists.innerHTML += "<p>Not Task Added!</p>");
 
-    //  Update task progress
-    updateProgressBar(Tasks);
+  //  Update task progress
+  updateProgressBar(Tasks);
 };
 //
 const AddTask = (e) => {
@@ -73,9 +74,8 @@ const AddTask = (e) => {
 
 const markCompleted = (e) => {
   let Tasks = JSON.parse(localStorage.getItem("tasks"));
-  const taskId = e.target.parentElement.parentElement.getAttribute("key");
+  const taskId = e.target.parentElement.parentElement.parentElement.getAttribute("key");
   const taskIndex = Tasks.findIndex((task) => task.id === taskId);
-
   if (taskIndex !== -1) {
     Tasks[taskIndex].progress =
       Tasks[taskIndex].progress === "todo" ? "done" : "todo";
@@ -84,17 +84,42 @@ const markCompleted = (e) => {
   }
 };
 
+const updateTask = (e) => {
+  const selectedTask = e.target;
+  selectedTask.contentEditable = true;
+  selectedTask.focus();
+  let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+  const taskIndex = tasks.findIndex(
+    (task) => task.name === selectedTask.innerText
+  );
+  selectedTask.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      if (taskIndex !== -1) {
+        tasks[taskIndex].name = selectedTask.innerText;
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+      }
+      selectedTask.contentEditable = false;
+      selectedTask.blur();
+    }
+  });
+};
+
 const deleteTask = (e) => {
-    const taskId = e.target.parentElement.parentElement.getAttribute("key");
-    let Tasks = JSON.parse(localStorage.getItem("tasks"));
-    const updatedTasks = Tasks.filter((task) => task.id !== taskId);
-    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
-    location.reload();
+  const taskId = e.target.parentElement.parentElement.parentElement.getAttribute("key");
+  let Tasks = JSON.parse(localStorage.getItem("tasks"));
+  const updatedTasks = Tasks.filter((task) => task.id !== taskId);
+  localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+  location.reload();
 };
 
 window.addEventListener("load", displayTasks);
 addTaskBtn.addEventListener("click", showForm);
 taskForm.addEventListener("submit", AddTask);
+document.addEventListener("dblclick", function (e) {
+  if (e.target.classList.contains("task-name")) {
+    updateTask(e);
+  }
+});
 document.addEventListener("click", function (e) {
   if (e.target.classList.contains("checkbox-input")) {
     markCompleted(e);

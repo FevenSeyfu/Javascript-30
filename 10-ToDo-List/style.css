@@ -166,6 +166,11 @@ header {
   text-decoration-thickness: 3px;
 }
 
+.align-left{
+  display:  flex;
+  flex-direction: row;
+}
+
 .delete-btn {
   cursor: pointer;
   background: transparent;
