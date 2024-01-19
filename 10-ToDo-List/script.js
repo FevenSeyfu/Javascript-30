@@ -11,9 +11,15 @@ const showForm = () => {
 const updateProgressBar = (Tasks) => {
   const TaskCount = Tasks.length;
   const CompletedTask = Tasks.filter((task) => task.progress === "done").length;
-  let progress = ((CompletedTask / TaskCount) * 100).toFixed();
-  ProgressBar.style.width = `${progress}%`;
-  ProgressBar.innerText = `${progress}%`;
+  if(TaskCount===0 || CompletedTask==0){
+    ProgressBar.style.width = 0;
+    ProgressBar.style.background = 'none';
+    ProgressBar.innerText = '';
+  }else{
+    let progress = ((CompletedTask / TaskCount) * 100).toFixed();
+    ProgressBar.style.width = `${progress}%`;
+    ProgressBar.innerText = `${progress}%`;
+  }
 };
 // display tasks list
 const displayTasks = () => {
@@ -46,7 +52,7 @@ const displayTasks = () => {
         `;
         taskLists.appendChild(taskLi);
       })
-    : (taskLists.innerHTML += "<p>Not Task Added!</p>");
+    : (taskLists.innerHTML += "<p style='font-size: 24px;color:red';>No Task Added Yet!</p>");
 
   //  Update task progress
   updateProgressBar(Tasks);
@@ -105,7 +111,7 @@ const updateTask = (e) => {
 };
 
 const deleteTask = (e) => {
-  const taskId = e.target.parentElement.parentElement.parentElement.getAttribute("key");
+  const taskId = e.target.parentElement.parentElement.getAttribute("key");
   let Tasks = JSON.parse(localStorage.getItem("tasks"));
   const updatedTasks = Tasks.filter((task) => task.id !== taskId);
   localStorage.setItem("tasks", JSON.stringify(updatedTasks));
