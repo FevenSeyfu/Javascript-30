@@ -1,6 +1,6 @@
 const taskForm = document.querySelector(".task-form");
 const taskLists = document.querySelector(".tasks-list");
-const Progress = document.querySelector(".progress");
+const ProgressBar = document.querySelector(".progress");
 const addTaskBtn = document.querySelector(".add-task");
 
 // display task input form
@@ -37,6 +37,13 @@ const displayTasks = () => {
         taskLists.appendChild(taskLi);
       })
     : (taskLists.innerHTML += "<p>Not Task Added!</p>");
+
+    //  Update task progress
+    const TaskCount = Tasks.length;
+    const CompletedTask = Tasks.filter(task=>task.progress === 'done').length;
+    let  progress = ((CompletedTask/TaskCount)*100).toFixed();
+    ProgressBar.style.width = `${progress}%`
+    ProgressBar.innerText = `${progress}%`
 };
 //
 const AddTask = (e) => {
