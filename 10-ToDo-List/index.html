@@ -16,40 +16,33 @@
         <h1>Daily ToDo List</h1>
       </header>
       <main class="main">
-        <input
-          type="text"
-          name="task"
-          class="task-input"
-          placeholder="add task"
+       <form class="task-form">
+            <input
+            type="text"
+            name="task"
+            class="task-input"
+            placeholder="add task"
         />
+       </form>
         <ul class="tasks-list">
           <li class="task-item">
-            <label for="task"
-              ><input type="checkbox" name="task" class="task" /> finish
-              task</label
-            >
-            <i
-              class="fa fa-trash"
-              style="font-size: 24px; color: red"
-              class="delete-icon"
-            ></i>
+            <label class="checkbox">
+              <input type="checkbox" class="checkbox-input" />
+              <span class="checkbox-inner"></span>
+              <span class="task-name checked">finish task</label>
+            </label>
+            <button class="delete-btn">
+              <i
+                class="fa fa-trash"
+                style="font-size: 24px; color: red"
+                class="delete-icon"
+              ></i>
+            </button>
           </li>
-          <li class="task-item">
-            <label for="task"
-              ><input type="checkbox" name="task" class="task" /> finish
-              task</label
-            >
-            <i
-              class="fa fa-trash"
-              style="font-size: 24px; color: red"
-              class="delete-icon"
-            ></i>
-          </li>
-          
         </ul>
         <button class="add-task">+</button>
         <div class="progress-bar">
-            <label for=""></label>
+          <label for=""></label>
           <div class="progress">30%</div>
         </div>
       </main>

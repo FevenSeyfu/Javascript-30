@@ -1,19 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
   --bg-body-dark: #000;
   --bg-task: #1b263b;
   --btn-bg: #90e0ef;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Rakkas", serif;
+    font-family: 'Bebas Neue', sans-serif;
   background-color: var(--bg-body-dark);
   color: var(--btn-bg);
   width: 100%;
@@ -53,31 +52,32 @@ header {
 }
 
 .task-input,
-.task-item{
-    width: 20rem;
-    padding: 0.5rem;
-    color: var(--btn-bg);
+.task-item {
+  width: 20rem;
+  padding: 0.5rem;
+  color: var(--btn-bg);
 }
 
-.task-input{
-    border-radius: 1rem;
-    margin-bottom: 1.5rem;
+.task-input {
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
-.tasks-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
-.task-item{
-    border-radius: 0.5rem;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.5rem;
+.task-item {
+  border-radius: 0.5rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
 }
 
 .add-task {
@@ -105,21 +105,69 @@ header {
   color: var(--bg-task);
 }
 
-.progress-bar{
-    position: absolute;
-    bottom: 5%;
-    width: 20rem;
-    height: 1.5rem;
-    border: var(--btn-bg) solid 1px;
-    border-radius: 2rem;
+.progress-bar {
+  position: absolute;
+  bottom: 5%;
+  width: 20rem;
+  height: 1.5rem;
+  border: var(--btn-bg) solid 1px;
+  border-radius: 2rem;
 }
 
-.progress{
-    background-color: var(--btn-bg);
-    color: var(--bg-body-dark);
-    width: 50%;
-    height: 1.5rem;
-    border-radius: 2rem;
-    text-align: right;
-    padding-right: 10px;
+.progress {
+  background-color: var(--btn-bg);
+  color: var(--bg-body-dark);
+  width: 50%;
+  height: 1.5rem;
+  border-radius: 2rem;
+  text-align: right;
+  padding-right: 10px;
+}
+.checkbox {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-input {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.checkbox-inner {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--btn-bg);
+  background: transparent no-repeat center;
+  cursor: pointer;
+}
+.checkbox-inner:hover{
+    border: 2px solid var(--btn-bg);
+}
+
+.checkbox-input:checked + .checkbox-inner {
+  border-color: #52c6c4;
+  background-color: var(--btn-bg);
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='10px' viewBox='0 0 14 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 59.1 (86144) - https://sketch.com --%3E%3Ctitle%3Echeck%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='ios_modification' transform='translate(-27.000000, -191.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='Group-Copy' transform='translate(0.000000, 164.000000)'%3E%3Cg id='ic-check-18px' transform='translate(25.000000, 23.000000)'%3E%3Cpolygon id='check' points='6.61 11.89 3.5 8.78 2.44 9.84 6.61 14 15.56 5.05 14.5 4'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 14px 10px;
+}
+
+.task-name.checked{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}
+
+.delete-btn{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.delete-btn:hover{
+    scale: 1.2;
 }
