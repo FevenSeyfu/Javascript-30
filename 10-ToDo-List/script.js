@@ -7,6 +7,15 @@ const addTaskBtn = document.querySelector(".add-task");
 const showForm = () => {
   taskForm.classList.toggle("hidden");
 };
+
+// update Task progress
+const updateProgressBar = (Tasks) => {
+    const TaskCount = Tasks.length;
+    const CompletedTask = Tasks.filter(task=>task.progress === 'done').length;
+    let  progress = ((CompletedTask/TaskCount)*100).toFixed();
+    ProgressBar.style.width = `${progress}%`
+    ProgressBar.innerText = `${progress}%`
+}
 // display tasks list
 const displayTasks = () => {
   //  fetch and display tasks
@@ -39,11 +48,7 @@ const displayTasks = () => {
     : (taskLists.innerHTML += "<p>Not Task Added!</p>");
 
     //  Update task progress
-    const TaskCount = Tasks.length;
-    const CompletedTask = Tasks.filter(task=>task.progress === 'done').length;
-    let  progress = ((CompletedTask/TaskCount)*100).toFixed();
-    ProgressBar.style.width = `${progress}%`
-    ProgressBar.innerText = `${progress}%`
+    updateProgressBar(Tasks);
 };
 //
 const AddTask = (e) => {
