@@ -47,7 +47,18 @@
         </g>
       </svg>
     </button>
-    <div class="player"></div>
+    <div class="player">
+        <video class="player__video viewer" src="652333414.mp4"></video>
+        <div class="player__controls">
+            <button class="player__button toggle" title="Toggle Play">
+              <img src="https://img.icons8.com/ios-filled/50/FFFFFF/play--v1.png" alt="volume button" class="play-pause-icon"/>
+            </button>
+            <button class="player__button toggle" title="Toggle audio">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/high-volume--v1.png" alt="volume button" class="volume-icon"/>
+            </button>
+            <input type="range" name="volume" id="volume" class="player__slider hidden" min="0" max="100">
+        </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
