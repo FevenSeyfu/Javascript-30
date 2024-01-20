@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+body.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+#toggle-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.theme-toggle{
+  text-align: left;
+  border: 2px solid #f3b560;
+  color: #f3b560;
+}
+/* dark */
+.theme-toggle--toggled{
+    text-align: right;
+    border: 2px solid white;
+    background-color: #494a5e;
+    color: white;
+    
+}
