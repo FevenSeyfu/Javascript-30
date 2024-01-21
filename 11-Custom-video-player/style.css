@@ -42,12 +42,12 @@ body.dark {
 }
 
 .player .viewer {
-  background-color: #000;
-
   border-radius: 1rem;
   width: 60vw;
 }
-
+.player .viewer {
+  border: 1px solid #fff;
+}
 .player__controls {
   position: relative;
   bottom: 2rem;
