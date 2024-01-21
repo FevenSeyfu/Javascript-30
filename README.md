@@ -14,6 +14,6 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 6   | Array Cardio         | [06 Type A Head](http://fevenseyfu.me/Javascript-30/06-Type-Ahead/)                | <img src="assets/Day_6.png" alt="Day 6" width="200"  height="200"/>  |
 | 7   | Array Cardio Day 2   | [07 Array Cardio-Day 2](http://fevenseyfu.me/Javascript-30/07-Array-Cardio-Day-2/) | <img src="assets/Day_7.png" alt="Day 7" width="200"  height="200"/>  |
 | 8   | Fun with HTML5       | [08 HTML Canvas](http://fevenseyfu.me/Javascript-30/08-Fun-With-HTML5/)            | <img src="assets/Day_8.png" alt="Day 8" width="200"  height="200"/>  |
-| 9   | Dev Tools Domination | [09 Console Tricks](http://fevenseyfu.me/Javascript-30/09-Dev-Tools-Domination/)   | <img src="assets/Day_9.png" alt="Day 8" width="200"  height="200"/>  |
-| 10  | To Do List           | [10 To Do List](http://fevenseyfu.me/Javascript-30/10-ToDo-List/)                  | <img src="assets/Day_10.png" alt="Day 8" width="200"  height="200"/> |
-
+| 9   | Dev Tools Domination | [09 Console Tricks](http://fevenseyfu.me/Javascript-30/09-Dev-Tools-Domination/)   | <img src="assets/Day_9.png" alt="Day 9" width="200"  height="200"/>  |
+| 10  | To Do List           | [10 To Do List](http://fevenseyfu.me/Javascript-30/10-ToDo-List/)                  | <img src="assets/Day_10.png" alt="Day 10" width="200"  height="200"/> |
+| 10  | Custom Video Player  | [11 Custom video player](http://fevenseyfu.me/Javascript-30/11-Custom-video-player/)| <img src="assets/Day_11.png" alt="Day 11" width="200"  height="200"/> |
