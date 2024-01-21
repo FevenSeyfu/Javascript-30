@@ -6,6 +6,7 @@ const playIcon = document.querySelector(".play-pause-icon");
 const volumeSlider = document.querySelector(".player__slider")
 const iconBaseUrl = 'https://img.icons8.com/ios-filled/50/FFFFFF/'
 const playRateBtns = document.querySelectorAll(".playrate");
+const progress = document.querySelector(".progress_rate")
 let togglePlayer;
 let toggleVolume;
 
@@ -64,3 +65,9 @@ playRateBtns.forEach(playRate => {
   })
 });
 
+// play progress 
+const updateTime = ()=>{
+  const percent = (video.currentTime / video.duration) * 100;
+  progress.style.width = `${percent}%`;
+}
+video.addEventListener("timeupdate",updateTime)
