@@ -21,7 +21,8 @@ const playPauseToggle = () => {
 
 // control video volume 
 const changeVolume = () =>{
-  console.log(volumeSlider.value)
+  video.volume = volumeSlider.value;
+  console.log(video.volume);
 }
 
 toggleBtn.addEventListener("click", toggleTheme);
@@ -34,11 +35,16 @@ window.addEventListener("keydown", (e)=>{
 volumeIcon.addEventListener("mouseenter", ()=>{
   volumeSlider.classList.remove('hidden')
 });
+
 volumeIcon.addEventListener("mouseleave", ()=>{
-  volumeSlider.classList.add('hidden')
+  const hideVolume = () => {
+    volumeSlider.classList.add('hidden')
+  }
+  setTimeout(hideVolume, 3000);
 });
 volumeIcon.addEventListener("click", ()=>{
   video.muted ===  true ? (video.muted = false ,togglePlayer = "high-volume--v1" ) : (video.muted = true , togglePlayer = "no-audio--v1")
   volumeIcon.src = `${iconBaseUrl}${togglePlayer}.png`;
 });
+
 volumeSlider.addEventListener('change',changeVolume);
