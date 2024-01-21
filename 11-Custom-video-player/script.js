@@ -21,8 +21,8 @@ const playPauseToggle = () => {
 
 // control video volume 
 const changeVolume = () =>{
-  video.volume = volumeSlider.value;
-  console.log(video.volume);
+  video.volume = volumeSlider.value/100;
+  console.log(volumeSlider.value);
 }
 
 toggleBtn.addEventListener("click", toggleTheme);
