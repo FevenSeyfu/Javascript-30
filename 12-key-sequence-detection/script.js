@@ -1,5 +1,5 @@
 const keyPressed = [];
-const secretCode = 'awesome'
+const secretCode = 'jackpot'
 window.addEventListener("keyup",(e)=>{
     console.log(e.key);
     keyPressed.push(e.key)

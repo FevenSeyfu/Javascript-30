@@ -16,4 +16,6 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 8   | Fun with HTML5       | [08 HTML Canvas](http://fevenseyfu.me/Javascript-30/08-Fun-With-HTML5/)            | <img src="assets/Day_8.png" alt="Day 8" width="200"  height="200"/>  |
 | 9   | Dev Tools Domination | [09 Console Tricks](http://fevenseyfu.me/Javascript-30/09-Dev-Tools-Domination/)   | <img src="assets/Day_9.png" alt="Day 9" width="200"  height="200"/>  |
 | 10  | To Do List           | [10 To Do List](http://fevenseyfu.me/Javascript-30/10-ToDo-List/)                  | <img src="assets/Day_10.png" alt="Day 10" width="200"  height="200"/> |
-| 10  | Custom Video Player  | [11 Custom video player](http://fevenseyfu.me/Javascript-30/11-Custom-video-player/)| <img src="assets/Day_11.png" alt="Day 11" width="200"  height="200"/> |
+| 11  | Custom Video Player  | [11 Custom video player](http://fevenseyfu.me/Javascript-30/11-Custom-video-player/)| <img src="assets/Day_11.png" alt="Day 11" width="200"  height="200"/> |
+| 12  | Key Sequence Detection | [12-key-sequence-detection](http://fevenseyfu.me/Javascript-30/12-key-sequence-detection/)| <img src="assets/Day_12.png" alt="Day 12" width="200"  height="200"/> |
+| 13  | Slide In On Scroll| [13-slide-in-on-scroll](http://fevenseyfu.me/Javascript-30/13-slide-in-on-scroll/)| <img src="assets/Day_13.png" alt="Day 13" width="200"  height="200"/> |
