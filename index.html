@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://fav.farm/✅" />
+    <title>30 Days JS</title>
+  </head>
+  <body>
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+        <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <nav id="nav" class="nav">
+      <ul>
+        <li>
+          <a href="#hero" class="nav-link current">Home</a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="hero" id="hero">
+      <h1 class="main-header">Vanilla Javascript</h1>
+      <p class="main-text">
+        30 Day Vanilla JS Coding Challenge! where I build 30 projects with vanilla JS following #wesbos Challenge!
+      </p>
+    </section>
+    <div class="Projects-container" id="projects"></div>
+    <section class="form-section" id="contact">
+      <h2 class="form-intro">
+        I'm always interested in hearing about the project, so if you have any
+        feedback please get in touch.
+      </h2>
+      <div class="form-cont">
+        <form
+          action="https://formspree.io/f/xrgnepyj"
+          method="post"
+          class="form-container"
+          id="contact-form"
+        >
+          <div class="input-field">
+            <input
+              type="text"
+              class="name-input box"
+              placeholder="Full Name"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="email-input box"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <textarea
+              class="box-text box"
+              name="comment"
+              id="comment-input"
+              cols="30"
+              rows="10"
+              placeholder="please write your comment..."
+              maxlength="500"
+              aria-placeholder="Enter text area ..."
+              required
+            ></textarea>
+          </div>
+          <p class="hide" id="alert"></p>
+          <button class="main-btn center" type="submit">Get in touch</button>
+        </form>
+      </div>
+      <footer>
+        &copy; Copyright 2024. 30 days of Vanilla JS,Done By
+        <a href="https://github.com/FevenSeyfu">FevenSeyfu.</a>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
