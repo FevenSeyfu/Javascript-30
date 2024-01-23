@@ -19,3 +19,5 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 11  | Custom Video Player  | [11 Custom video player](http://fevenseyfu.me/Javascript-30/11-Custom-video-player/)| <img src="assets/Day_11.png" alt="Day 11" width="200"  height="200"/> |
 | 12  | Key Sequence Detection | [12-key-sequence-detection](http://fevenseyfu.me/Javascript-30/12-key-sequence-detection/)| <img src="assets/Day_12.png" alt="Day 12" width="200"  height="200"/> |
 | 13  | Slide In On Scroll| [13-slide-in-on-scroll](http://fevenseyfu.me/Javascript-30/13-slide-in-on-scroll/)| <img src="assets/Day_13.png" alt="Day 13" width="200"  height="200"/> |
+| 14  | Javascript Reference Vs Copy| [14-reference-vs-copy](http://fevenseyfu.me/Javascript-30/14-reference-vs-copy/)| <img src="assets/Day_14.png" alt="Day 14" width="200"  height="200"/> |
+| 15  | Local Storage| [15-LocalStorage](http://fevenseyfu.me/Javascript-30/15-LocalStorage/)| <img src="assets/Day_15.png" alt="Day 15" width="200"  height="200"/> |
