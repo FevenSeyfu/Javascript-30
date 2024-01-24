@@ -90,6 +90,12 @@ const projects = [
     img: "assets/Day_15.png",
     previewLink: "http://fevenseyfu.me/Javascript-30/15-LocalStorage/",
   },
+  {
+    id: 16,
+    name: "Mouse Shadow",
+    img: "assets/Day_16.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/16-mouse-move-shadow/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
