@@ -21,4 +21,6 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 13  | Slide In On Scroll| [13 slide in on scroll](http://fevenseyfu.me/Javascript-30/13-slide-in-on-scroll/)|
 | 14  | Javascript Reference Vs Copy| [14 reference vs copy](http://fevenseyfu.me/Javascript-30/14-reference-vs-copy/)|
 | 15  | Local Storage| [15 LocalStorage](http://fevenseyfu.me/Javascript-30/15-LocalStorage/)|
-| 16  | Mouse Move| [16 Mouse Move Shadow](http://fevenseyfu.me/Javascript-30/16-mouse-move-shadow/)|
+| 16  | Mouse Move Shadow| [16 Mouse Move Shadow](http://fevenseyfu.me/Javascript-30/16-mouse-move-shadow/)|
+| 17  | Sort Without Articles| [Sort Without Articles](http://fevenseyfu.me/Javascript-30/17-sort-without-articles/)|
+| 18  | Adding Up Times with Reduce| [Adding Up Times with Reduce](http://fevenseyfu.me/Javascript-30/18-Adding-Up-Times-with-Reduce/)|

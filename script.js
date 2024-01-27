@@ -96,6 +96,18 @@ const projects = [
     img: "assets/Day_16.png",
     previewLink: "http://fevenseyfu.me/Javascript-30/16-mouse-move-shadow/",
   },
+  {
+    id: 17,
+    name: "sort-without-articles",
+    img: "assets/Day_17.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/17-sort-without-articles/",
+  },
+  {
+    id: 18,
+    name: "Adding Up Times with Reduce",
+    img: "assets/Day_18.gif",
+    previewLink: "http://fevenseyfu.me/Javascript-30/18-Adding-Up-Times-with-Reduce/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
