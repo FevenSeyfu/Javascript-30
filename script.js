@@ -93,19 +93,19 @@ const projects = [
   {
     id: 16,
     name: "Mouse Shadow",
-    img: "assets/Day_16.png",
+    img: "assets/Day_16.gif",
     previewLink: "http://fevenseyfu.me/Javascript-30/16-mouse-move-shadow/",
   },
   {
     id: 17,
     name: "sort-without-articles",
-    img: "assets/Day_17.png",
+    img: "assets/Day_17.gif",
     previewLink: "http://fevenseyfu.me/Javascript-30/17-sort-without-articles/",
   },
   {
     id: 18,
     name: "Adding Up Times with Reduce",
-    img: "assets/Day_18.gif",
+    img: "assets/Day_18.png",
     previewLink: "http://fevenseyfu.me/Javascript-30/18-Adding-Up-Times-with-Reduce/",
   },
 ];
