@@ -94,17 +94,18 @@ body {
 .hero h1 {
   font-size: 6rem;
   margin: -1.2rem 0 1.2rem;
-  text-transform: uppercase;
-  background: linear-gradient(to right, #fff 0%, #92342a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+  text-transform: capitalize;
+  color: #fff;
+}
+.hero-text span{
+  display: inline-block;
+  transition: 10s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .hero p {
   font-size: 2rem;
   letter-spacing: 1px;
-  color: #92342a;
+  color: #fff;
   margin: 0 20%;
 }
 
@@ -115,7 +116,6 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
   padding: 5rem 0;
-  
 }
 
 .project-card {

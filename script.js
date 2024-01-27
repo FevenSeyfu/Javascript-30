@@ -152,3 +152,13 @@ projects.forEach(project=>{
             `
     ProjectSection.appendChild(projectCard)
 })
+
+const heroHeaders = document.querySelectorAll('.hero-text') 
+
+heroHeaders.forEach(heroHeader => {
+  heroHeader.innerHTML = heroHeader.innerText
+        .split('')
+        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
+        .join('')
+});
+d
