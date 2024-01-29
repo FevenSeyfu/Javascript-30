@@ -108,6 +108,12 @@ const projects = [
     img: "assets/Day_18.png",
     previewLink: "http://fevenseyfu.me/Javascript-30/18-Adding-Up-Times-with-Reduce/",
   },
+  {
+    id: 19,
+    name: "Adding Up Times with Reduce",
+    img: "assets/Day_19.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/19-webcam-fun/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
