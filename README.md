@@ -24,3 +24,7 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 16  | Mouse Move Shadow| [16 Mouse Move Shadow](http://fevenseyfu.me/Javascript-30/16-mouse-move-shadow/)|
 | 17  | Sort Without Articles| [Sort Without Articles](http://fevenseyfu.me/Javascript-30/17-sort-without-articles/)|
 | 18  | Adding Up Times with Reduce| [Adding Up Times with Reduce](http://fevenseyfu.me/Javascript-30/18-Adding-Up-Times-with-Reduce/)|
+| 19  | JS webCam With RGB effects| [JS webCam With RGB effects](http://fevenseyfu.me/Javascript-30/19-webcam-fun/)|
+| 20  | Speech To text without external API| [Speech To text without external API](http://fevenseyfu.me/Javascript-30/20-speech-detection/)|
+| 21  | JS Geolocation| [JS Geolocation](http://fevenseyfu.me/Javascript-30/21-Geo-location/)|
+| 22  | Follow Up Nav and highlight| [Follow Up Nav and highlight](http://fevenseyfu.me/Javascript-30/22-follow-along-link/)|

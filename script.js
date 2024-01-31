@@ -114,6 +114,24 @@ const projects = [
     img: "assets/Day_19.png",
     previewLink: "http://fevenseyfu.me/Javascript-30/19-webcam-fun/",
   },
+  {
+    id: 20,
+    name: "Speech Detection",
+    img: "assets/Day_20.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/20-speech-detection/",
+  },
+  {
+    id: 21,
+    name: "Geo Location",
+    img: "assets/Day_21.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/21-Geo-location/",
+  },
+  {
+    id: 22,
+    name: "Follow along Nav",
+    img: "assets/Day_22.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/22-follow-along-link/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
