@@ -28,3 +28,5 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 20  | Speech To text without external API| [Speech To text without external API](http://fevenseyfu.me/Javascript-30/20-speech-detection/)|
 | 21  | JS Geolocation| [JS Geolocation](http://fevenseyfu.me/Javascript-30/21-Geo-location/)|
 | 22  | Follow Up Nav and highlight| [Follow Up Nav and highlight](http://fevenseyfu.me/Javascript-30/22-follow-along-link/)|
+| 23  | Text to speech| [Live Demo](http://fevenseyfu.me/Javascript-30/23-speech-syntesis/)|
+| 24  | Sticky Navbar with sliding logo| [Live Demo](http://fevenseyfu.me/Javascript-30/24-sticky-nav/)|

@@ -132,6 +132,18 @@ const projects = [
     img: "assets/Day_22.png",
     previewLink: "http://fevenseyfu.me/Javascript-30/22-follow-along-link/",
   },
+  {
+    id: 23,
+    name: "Text to Speech converter",
+    img: "assets/Day_23.png",
+    previewLink: "http://fevenseyfu.me/Javascript-30/23-speech-syntesis/",
+  },
+  {
+    id: 24,
+    name: "Sticky Nav",
+    img: "assets/Day_24.gif",
+    previewLink: "http://fevenseyfu.me/Javascript-30/24-sticky-nav/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
