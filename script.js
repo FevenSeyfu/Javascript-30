@@ -129,7 +129,7 @@ const projects = [
   {
     id: 22,
     name: "Follow along Nav",
-    img: "assets/Day_22.png",
+    img: "assets/Day_22.gif",
     previewLink: "https://fevenseyfu.github.io/Javascript-30/22-follow-along-link/",
   },
   {
