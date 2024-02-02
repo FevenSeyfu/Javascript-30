@@ -144,6 +144,18 @@ const projects = [
     img: "assets/Day_24.gif",
     previewLink: "https://fevenseyfu.github.io/Javascript-30/24-sticky-nav/",
   },
+  {
+    id: 25,
+    name: "Event Capture, bubble and propagation",
+    img: "assets/Day_25.png",
+    previewLink: "https://fevenseyfu.github.io/Javascript-30/25-event-Capture-propagation-bubbling/",
+  },
+  {
+    id: 26,
+    name: "Expand Follow along Nav",
+    img: "assets/Day_26.gif",
+    previewLink: "https://fevenseyfu.github.io/Javascript-30/26-stripe-follow-along-nav/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
