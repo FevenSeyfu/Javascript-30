@@ -156,6 +156,18 @@ const projects = [
     img: "assets/Day_26.gif",
     previewLink: "https://fevenseyfu.github.io/Javascript-30/26-stripe-follow-along-nav/",
   },
+  {
+    id: 27,
+    name: "Click and drag Slider",
+    img: "assets/Day_27.gif",
+    previewLink: "https://fevenseyfu.github.io/Javascript-30/27-Click&Drag/",
+  },
+  {
+    id: 28,
+    name: "Video Speed controller",
+    img: "assets/Day_28.gif",
+    previewLink: "https://fevenseyfu.github.io/Javascript-30/28-Video-Speed-Controller/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
