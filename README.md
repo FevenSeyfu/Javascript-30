@@ -32,3 +32,5 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 24  | Sticky Navbar with sliding logo| [Live Demo](https://fevenseyfu.github.io/Javascript-30/24-sticky-nav/)|
 | 25  | Event capture,bubbling and propagation| [Live Demo](https://fevenseyfu.github.io/Javascript-30/25-event-Capture-propagation-bubbling/)|
 | 26  | Strip follow along Nav| [Live Demo](https://fevenseyfu.github.io/Javascript-30/26-stripe-follow-along-nav/)|
+| 27  | Click and Drag Horizontal Slider| [Live Demo](https://fevenseyfu.github.io/Javascript-30/27-Click&Drag/)|
+| 28  | Video Speed Controller| [Live Demo](https://fevenseyfu.github.io/Javascript-30/28-Video-Speed-Controller/)|
