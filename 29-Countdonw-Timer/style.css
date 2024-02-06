@@ -1,8 +1,8 @@
 html {
     box-sizing: border-box;
     font-size: 10px;
-    background: #8E24AA;
-    background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+    background: hsla(0, 56%, 91%, 1);
+    background: linear-gradient(90deg, hsla(0, 56%, 91%, 1) 0%, hsla(240, 56%, 91%, 1) 100%);
   }
   
   *, *:before, *:after {
@@ -19,7 +19,7 @@ html {
     font-weight: 100;
     font-size: 20rem;
     margin: 0;
-    color: white;
+    color: black;
     text-shadow: 4px 4px 0 rgba(0,0,0,0.05);
   }
   
@@ -31,6 +31,10 @@ html {
   
   .timer__controls {
     display: flex;
+    font-weight: 700;
+    font-size: larger;
+    gap: 2rem;
+    margin: 4rem;
   }
   
   .timer__controls > * {
@@ -60,12 +64,12 @@ html {
     border-right: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
     font-family: 'Inconsolata', monospace;
+    background-color: #ECA191;
   }
   
   .timer__button:hover,
   .timer__button:focus {
-    background: rgba(0,0,0,0.2);
-    outline: 0;
+    background: #E2725B
   }
   
   .display {
@@ -78,6 +82,6 @@ html {
   
   .display__end-time {
     font-size: 4rem;
-    color: white;
+    color: black;
   }
   

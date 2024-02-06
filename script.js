@@ -168,6 +168,12 @@ const projects = [
     img: "assets/Day_28.gif",
     previewLink: "https://fevenseyfu.github.io/Javascript-30/28-Video-Speed-Controller/",
   },
+  {
+    id: 29,
+    name: "Count Down Timer",
+    img: "assets/Day_29.gif",
+    previewLink: "https://fevenseyfu.github.io/Javascript-30/29-Countdonw-Timer/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");
