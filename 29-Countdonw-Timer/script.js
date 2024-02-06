@@ -23,7 +23,7 @@ function timer(seconds, message, alertTime) {
 
     // display time
     displayTimeLeft(secondsLeft);
-    alertEndTimeClose(secondsLeft,alertTime)
+    alertEndTimeClose(secondsLeft, alertTime);
   }, 1000);
 }
 
@@ -48,9 +48,12 @@ function displayEndTime(timestamp, message) {
 }
 
 function alertEndTimeClose(remainingSeconds, alertTime) {
-  if (alertTime > remainingSeconds) {
+  if (alertTime > remainingSeconds && remainingSeconds > 1) {
     endTime.style.color = "red";
     timerDisplay.style.color = "red";
+    playAlert();
+  }else if(remainingSeconds <= 1){
+    playEndSound();
   }
 }
 function startTimer() {
@@ -81,3 +84,27 @@ function startTimer() {
 buttons.forEach((button) => {
   button.addEventListener("click", startTimer);
 });
+
+document.customForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const mins = this.minutes.value;
+  const secs = mins * 60;
+  let alertTime = secs * 0.8;
+  message = "Ends At ";
+  timer(secs, message, alertTime);
+  this.reset();
+});
+
+function playAlert() {
+  const audio = document.querySelector('.timer-alert');
+  audio.play();
+  setTimeout(() => {
+    audio.pause();
+  }, 2000);
+}
+
+function playEndSound() {
+    const audio = document.querySelector('.timer-end');
+    audio.play();
+}
+  
