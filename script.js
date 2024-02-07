@@ -174,6 +174,12 @@ const projects = [
     img: "assets/Day_29.gif",
     previewLink: "https://fevenseyfu.github.io/Javascript-30/29-Countdonw-Timer/",
   },
+  {
+    id: 30,
+    name: "Whack A Mole",
+    img: "assets/Day_30.gif",
+    previewLink: "https://fevenseyfu.github.io/Javascript-30/30-Whack-a-mole/",
+  },
 ];
 const boxes = document.querySelectorAll(".box");
 const nav = document.querySelector(".nav");

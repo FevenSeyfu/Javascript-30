@@ -35,3 +35,4 @@ This Repository Documents a 30 days JavaScript challenge. where I will be buildi
 | 27  | Click and Drag Horizontal Slider| [Live Demo](https://fevenseyfu.github.io/Javascript-30/27-Click&Drag/)|
 | 28  | Video Speed Controller| [Live Demo](https://fevenseyfu.github.io/Javascript-30/28-Video-Speed-Controller/)|
 | 29  | Count Down Timer| [Live Demo](https://fevenseyfu.github.io/Javascript-30/29-Countdonw-Timer/)|
+| 30  | Whack A Mole| [Live Demo](https://fevenseyfu.github.io/Javascript-30/30-Whack-a-mole/)|
