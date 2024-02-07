@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
   color: #222;
   background-color: #222;
-  font-family: "Roboto", Sans-serif;
+  font-family: 'Happy Monkey', system-ui;
   padding-bottom: 50px;
 }
 
@@ -41,6 +41,7 @@ body {
   color: #fff;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease-in-out;
+  font-size: 1rem;
 }
 
 .nav ul {
@@ -53,7 +54,9 @@ body {
 
 .nav.active .nav-link.current,
 .nav-link.current {
-  color: #92342a;
+  color: #a34036;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
 .nav.active .nav-link:hover,
@@ -97,13 +100,10 @@ body {
   text-transform: capitalize;
   color: #fff;
 }
-.hero-text span{
-  display: inline-block;
-  transition: 10s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
+
 
 .hero p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   color: #fff;
   margin: 0 20%;

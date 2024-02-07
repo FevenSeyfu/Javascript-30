@@ -3,13 +3,15 @@ const projects = [
     id: 1,
     name: "JS Drum Stick",
     img: "assets/Day_1.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/01-Javascript-drum-kit/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/01-Javascript-drum-kit/",
   },
   {
     id: 2,
     name: "JS+CSS Clock",
     img: "assets/Day_2.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/02-JS-and-CSS-Clock/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/02-JS-and-CSS-Clock/",
   },
   {
     id: 3,
@@ -21,13 +23,15 @@ const projects = [
     id: 4,
     name: "Array Cardio Day 1",
     img: "assets/Day_4.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/04-Array-Cardio-day-1/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/04-Array-Cardio-day-1/",
   },
   {
     id: 5,
     name: "Flex Panel Gallery",
     img: "assets/Day_5.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/05-Flex-Panel-Gallery/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/05-Flex-Panel-Gallery/",
   },
   {
     id: 6,
@@ -39,19 +43,22 @@ const projects = [
     id: 7,
     name: "Array Cardio Day 2",
     img: "assets/Day_7.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/07-Array-Cardio-Day-2/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/07-Array-Cardio-Day-2/",
   },
   {
     id: 8,
     name: "Fun with HTML5",
     img: "assets/Day_8.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/08-Fun-With-HTML5/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/08-Fun-With-HTML5/",
   },
   {
     id: 9,
     name: "Dev Tools Domination",
     img: "assets/Day_9.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/09-Dev-Tools-Domination/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/09-Dev-Tools-Domination/",
   },
   {
     id: 10,
@@ -63,7 +70,8 @@ const projects = [
     id: 11,
     name: "Custom Video Player",
     img: "assets/Day_11.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/11-Custom-video-player/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/11-Custom-video-player/",
   },
   {
     id: 12,
@@ -76,13 +84,15 @@ const projects = [
     id: 13,
     name: "Slide In On Scroll",
     img: "assets/Day_13.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/13-slide-in-on-scroll/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/13-slide-in-on-scroll/",
   },
   {
     id: 14,
     name: "Javascript Reference Vs Copy",
     img: "assets/Day_14.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/14-reference-vs-copy/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/14-reference-vs-copy/",
   },
   {
     id: 15,
@@ -94,19 +104,22 @@ const projects = [
     id: 16,
     name: "Mouse Shadow",
     img: "assets/Day_16.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/16-mouse-move-shadow/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/16-mouse-move-shadow/",
   },
   {
     id: 17,
     name: "sort-without-articles",
     img: "assets/Day_17.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/17-sort-without-articles/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/17-sort-without-articles/",
   },
   {
     id: 18,
     name: "Adding Up Times with Reduce",
     img: "assets/Day_18.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/18-Adding-Up-Times-with-Reduce/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/18-Adding-Up-Times-with-Reduce/",
   },
   {
     id: 19,
@@ -118,7 +131,8 @@ const projects = [
     id: 20,
     name: "Speech Detection",
     img: "assets/Day_20.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/20-speech-detection/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/20-speech-detection/",
   },
   {
     id: 21,
@@ -130,13 +144,15 @@ const projects = [
     id: 22,
     name: "Follow along Nav",
     img: "assets/Day_22.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/22-follow-along-link/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/22-follow-along-link/",
   },
   {
     id: 23,
     name: "Text to Speech converter",
     img: "assets/Day_23.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/23-speech-syntesis/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/23-speech-syntesis/",
   },
   {
     id: 24,
@@ -148,13 +164,15 @@ const projects = [
     id: 25,
     name: "Event Capture, bubble and propagation",
     img: "assets/Day_25.png",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/25-event-Capture-propagation-bubbling/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/25-event-Capture-propagation-bubbling/",
   },
   {
     id: 26,
     name: "Expand Follow along Nav",
     img: "assets/Day_26.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/26-stripe-follow-along-nav/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/26-stripe-follow-along-nav/",
   },
   {
     id: 27,
@@ -166,13 +184,15 @@ const projects = [
     id: 28,
     name: "Video Speed controller",
     img: "assets/Day_28.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/28-Video-Speed-Controller/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/28-Video-Speed-Controller/",
   },
   {
     id: 29,
     name: "Count Down Timer",
     img: "assets/Day_29.gif",
-    previewLink: "https://fevenseyfu.github.io/Javascript-30/29-Countdonw-Timer/",
+    previewLink:
+      "https://fevenseyfu.github.io/Javascript-30/29-Countdonw-Timer/",
   },
   {
     id: 30,
@@ -207,12 +227,12 @@ const fixNavbar = () => {
 window.addEventListener("scroll", fixNavbar);
 
 // projects
-const projectBox =  document.getElementById('box')
-projects.forEach(project=>{
-    projectCard = document.createElement('div')
-    projectCard.classList.add('project-card')
-    projectCard.setAttribute('data-id', `${project.id}`)
-    projectCard.innerHTML =`
+const projectBox = document.getElementById("box");
+projects.forEach((project) => {
+  projectCard = document.createElement("div");
+  projectCard.classList.add("project-card");
+  projectCard.setAttribute("data-id", `${project.id}`);
+  projectCard.innerHTML = `
         <img src="${project.img}" />
         <span class="tag">Day ${project.id}</span>
         <div class="overlay">
@@ -221,16 +241,6 @@ projects.forEach(project=>{
                 <a href="${project.previewLink}">Live Demo</a>
             </button>
         </div>
-            `
-    ProjectSection.appendChild(projectCard)
-})
-
-const heroHeaders = document.querySelectorAll('.hero-text') 
-
-heroHeaders.forEach(heroHeader => {
-  heroHeader.innerHTML = heroHeader.innerText
-        .split('')
-        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
-        .join('')
+            `;
+  ProjectSection.appendChild(projectCard);
 });
-d
