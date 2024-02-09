@@ -1,6 +1,15 @@
 # Javascript-30
 
-This Repository Documents a 30 days JavaScript challenge. where I will be building 30 projects everyday using vanilla JS
+## Javascript 30 ## is a repository that holds 30 mini projects. built with Vanila JS.Completed as part of the WomenWhoCode Days of code challenge I took part in. Completing this projects has helped me to sharpen my front end skills, specifically I dived in deep into JS concepts such as:
+    - reduce function
+    - styling components with Javascrip
+    - Javascript event handling
+    - Playing with HTML elements like : audio, canvas, video
+    - Geolocation, speechrecognition and speechsynthtesis 
+    - storing in localstorage
+
+    
+![preview](https://github.com/FevenSeyfu/Javascript-30/blob/dev/30Days.gif)
 
 ### Projects
 
