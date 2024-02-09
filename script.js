@@ -207,6 +207,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 const ProjectSection = document.getElementById("projects");
 const heroSection = document.getElementById('hero');
 const jumpTopButton = document.querySelector('.jump-top')
+const sections=document.querySelectorAll('section')
 
 const fixNavbar = () => {
   if (window.scrollY > nav.offsetHeight + 150) {
@@ -221,14 +222,18 @@ const fixNavbar = () => {
   );
 
   // links add or remove current style
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      navLinks.forEach(link => {
-        link.classList.remove('current');
-      });
-      this.classList.add('current');
-    });
-  });
+  sections.forEach(section=>{
+    let scrollPosition = window.scrollY;
+    let offset = section.offsetTop - 150;
+    let height = section.offsetHeight;
+    let id = section.getAttribute('id');
+    if(scrollPosition >= offset && scrollPosition < offset + height) {
+        navLinks.forEach(links => {
+            links.classList.remove('current');
+            document.querySelector('ul li a[href*=' + id + ']').classList.add('current');
+        });
+      }
+  })
 
   if (scrollPosition < heroSection.offsetHeight) {
       jumpTopButton.style.visibility = 'hidden';
