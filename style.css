@@ -21,11 +21,14 @@ body {
   flex-direction: row;
   justify-content: end;
   align-items: center;
+  justify-content: space-between;
   background-color: hsl(0, 0%, 13%);
   padding: 1.5rem 1rem;
   z-index: 1;
 }
-
+.nav .logo{
+  color: #a34036;
+}
 .nav.active {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -62,7 +65,8 @@ body {
 .nav.active .nav-link:hover,
 .nav-link:hover {
   color: #92342a;
-  font-size: 1.2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
 .hero {
@@ -109,6 +113,35 @@ body {
   margin: 0 20%;
 }
 
+/* Jump to top icon */
+.jump-top{
+  background-color: #92342a;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.jump-top a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.jump-top:hover{
+  animation: bounce 1s ease infinite;
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
 /* Projects list section */
 .Projects-container {
   display: grid;
